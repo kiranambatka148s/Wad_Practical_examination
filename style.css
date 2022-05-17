@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #d2e490;
+  padding-left: 10%;
+}
+
+/******NavBar****/
+#navbar {
+  position: unset;
+  top: 0;
+  left: 100;
+  padding: 0.5rem 5rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 5);
+  background: black;
+}
+
+.navbar .navbar-brand {
+  font-size: 25px;
+  font-weight: 800;
+  color: #29f700 !important;
+  margin-left: -2%;
+}
+
+#navbarSupportedContent a {
+  color: #fff;
+  border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent a:hover {
+  border-bottom: 2px solid #29f700;
+}
+
+#navbarSupportedContent button {
+  background: #29f700;
+  width: 5rem;
+  border-radius: 15px;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/******Home******/
+#home {
+  padding-left: 10%;
+  background: url(Images/home.jpg);
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+}
+
+#home .input-group {
+  width: 40%;
+  height: 45px;
+}
+
+.signin {
+  background: green !important;
+  color: white !important;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+.sign {
+  background: rgb(247, 3, 64) !important;
+  color: white !important;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
